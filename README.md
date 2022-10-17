@@ -1,5 +1,5 @@
 # BERT-constructs-NER
- BERT training and evaluation on our custom annotated data for constructs./n
+ BERT training and evaluation on our custom annotated data for constructs.\n
 Run the files in sequential numbering of 1,2,3 and then 4.Best environment to run is google collab,  as because of version issues, there might be some errors and debugging needed to be done if execeuting on Jupyter Notebook ./n
 Step 1 preprocesses the data to extract only the abstracts and titles of the papers in a csv file, from the full excel file containing additional metadata like ISSN,DOI,Author ID etc./n
 Step 2 takes the csv file generated from the 1st step , and the model is pretrained on the vocabulary of the abstract sentences of more than 50,000 paper abstracts to give tokenization and training weights for the actual fine-tuning. This process consumes the most amount of resources./n
